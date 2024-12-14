@@ -20,7 +20,6 @@ public class DoubleEncryption {
     }
 
     public static String encrypt(String input, int key) {
-        // Шифрую каждый символ при помощи XOR
 
         StringBuilder sb = new StringBuilder();
         for (char c : input.toCharArray()) {

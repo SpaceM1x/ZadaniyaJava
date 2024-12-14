@@ -7,14 +7,12 @@ public class Main {
         String filePath = "src/main/java/Vol9Var11/Numbers.txt";
 
         try {
-            // Чтение чисел из файла
             List<Double> numbers = NumberProcessor.readNumbersFromFile(filePath);
 
             // Расчет суммы и среднего
             double sum = NumberProcessor.calculateSum(numbers);
             double average = NumberProcessor.calculateAverage(numbers);
 
-            // Вывод результата
             System.out.println("Numbers: " + numbers);
             System.out.println("Sum: " + sum);
             System.out.println("Average: " + average);

@@ -47,7 +47,6 @@ public class Main {
             System.out.println("Загруженные обязательства:");
             loadedInsurances.forEach(System.out::println);
 
-            // Сортировка по риску
             List<Insurance> sortedInsurances = connector.sortByRisk(loadedInsurances);
             System.out.println("Обязательства, отсортированные по убыванию риска:");
             sortedInsurances.forEach(System.out::println);

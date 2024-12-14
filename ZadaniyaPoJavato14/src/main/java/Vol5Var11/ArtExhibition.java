@@ -4,15 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ArtExhibition {
-    // Список всех выставок
     private List<Exhibit> exhibits;
 
-    // Конструктор
     public ArtExhibition() {
         this.exhibits = new ArrayList<>();
     }
 
-    // Метод для добавления новой выставки
     public void addExhibit(String paintingName, String author, String exhibitionDate) {
         exhibits.add(new Exhibit(paintingName, author, exhibitionDate));
     }
@@ -34,7 +31,6 @@ public class ArtExhibition {
         private String author;       // Автор картины
         private String exhibitionDate; // Дата проведения выставки
 
-        // Конструктор Exhibit
         public Exhibit(String paintingName, String author, String exhibitionDate) {
             this.paintingName = paintingName;
             this.author = author;

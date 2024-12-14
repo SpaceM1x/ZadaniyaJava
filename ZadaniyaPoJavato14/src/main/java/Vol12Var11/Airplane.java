@@ -19,7 +19,7 @@ public class Airplane {
 
     public void boardPassengers() throws InterruptedException {
         System.out.println(name + " высаживает/сажает пассажиров.");
-        Thread.sleep(1000); // Эмуляция времени на посадку/высадку
+        Thread.sleep(1000);
     }
 
     public void flyToDestination() {

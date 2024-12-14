@@ -14,7 +14,7 @@ public class Main {
     }
 
     private static void runTask1() {
-        // Задаём элементы списка программно
+
         List<Integer> list = new ArrayList<>(Arrays.asList(-5, -3, 8, 1, -4, 7));
 
         System.out.println("Изначальный список: " + list);
@@ -23,7 +23,7 @@ public class Main {
     }
 
     private static void runTask2() {
-        // Задаём строки программно
+
         String original = "HELLO WORLD";
         String encrypted = "KHOOR ZRUOG"; // Пример зашифрованной строки
 

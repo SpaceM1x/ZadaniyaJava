@@ -23,7 +23,7 @@ public class NumberProcessor {
 
                 try {
                     Locale locale = Locale.forLanguageTag(localePart);
-                    double number = Double.parseDouble(numberPart.replace(',', '.')); // Normalize decimal separator
+                    double number = Double.parseDouble(numberPart.replace(',', '.'));
                     if (number < MIN_VALUE || number > MAX_VALUE) {
                         throw new InvalidNumberException("Number out of range: " + number);
                     }

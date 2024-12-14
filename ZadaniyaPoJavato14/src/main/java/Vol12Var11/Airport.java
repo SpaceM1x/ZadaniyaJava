@@ -9,9 +9,9 @@ public class Airport {
     private static final int NUM_TERMINALS = 3;  // Количество терминалов
     private static final int NUM_RUNWAYS = 2;    // Количество трапов
 
-    private final Semaphore terminalAccess;      // Управление доступом к терминалам
-    private final Semaphore runwayAccess;        // Управление доступом к трапам
-    private final ExecutorService airplaneService; // Потоковый пул для самолетов
+    private final Semaphore terminalAccess;
+    private final Semaphore runwayAccess;
+    private final ExecutorService airplaneService;
 
     public Airport(int numAirplanes) {
         terminalAccess = new Semaphore(NUM_TERMINALS);
