@@ -1,0 +1,5 @@
+Brand;Model;Country;Code
+Toyota;Camry;Japan;JP
+Toyota;Corolla;Japan;JP
+Ford;Focus;USA;US
+Honda;Civic;Japan;JP
